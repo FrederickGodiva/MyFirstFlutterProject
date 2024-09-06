@@ -1,13 +1,13 @@
 import "./App.css";
 import MainPage from "./MainPage";
-import Nav from "./nav";
+import Nav from "./Nav";
 
 function App() {
   return (
     <>
       <Nav />
 
-      <div className="h-screen flex items-center justify-center">
+      <div className="flex items-center justify-center h-screen">
         <MainPage />
       </div>
     </>
